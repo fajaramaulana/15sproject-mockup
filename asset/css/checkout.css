@@ -1,0 +1,269 @@
+.checkout_area p {
+    font-size: 14px;
+  }
+  
+  /* line 1395, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .checkout_area .form-control {
+    font-size: 14px;
+    height: 40px;
+  }
+  
+  /* line 1400, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .checkout_area .form-control {
+    border: 1px solid #eee;
+  }
+  
+  /* line 1403, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .checkout_area .form-control :focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  /* line 1412, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .checkout_area .form-control .form-control input {
+    height: 50px;
+  }
+
+.billing_details h3 {
+    font-size: 18px;
+    color: #2a2a2a;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* line 1604, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* line 1607, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group input {
+    border-radius: 3px;
+    color: #795376;
+  }
+  
+  /* line 65, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_mixins.scss */
+  .billing_details .contact_form .form-group input.placeholder {
+    color: #795376;
+  }
+  
+  /* line 68, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_mixins.scss */
+  .billing_details .contact_form .form-group input:-moz-placeholder {
+    color: #795376;
+  }
+  
+  /* line 71, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_mixins.scss */
+  .billing_details .contact_form .form-group input::-moz-placeholder {
+    color: #795376;
+  }
+  
+  /* line 74, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_mixins.scss */
+  .billing_details .contact_form .form-group input::-webkit-input-placeholder {
+    color: #795376;
+  }
+  
+  /* line 1616, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group textarea {
+    height: 150px;
+    border-radius: 3px;
+    margin-top: 15px;
+  }
+  
+  /* line 1622, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group .country_select {
+    width: 100%;
+  }
+  
+  /* line 1625, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group .country_select span {
+    color: #795376;
+  }
+  
+  /* line 1629, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group .country_select .list {
+    width: 100%;
+    border-radius: 0px;
+  }
+  
+  /* line 1633, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group .country_select .list li {
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+  }
+  
+  /* line 1642, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group .creat_account #f-option2 {
+    margin-right: 5px;
+  }
+  
+  /* line 1646, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group .creat_account #f-option3 {
+    margin-right: 5px;
+  }
+  
+  /* line 1650, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .billing_details .contact_form .form-group .creat_account a {
+    color: #B08EAD;
+  }
+
+  .order_box {
+    background: #f4f4f4;
+    padding: 30px;
+  }
+  
+  /* line 1662, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box h2 {
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2a2a2a;
+    padding-bottom: 15px;
+  }
+  
+  /* line 1672, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .list li a {
+    font-size: 14px;
+    color: #795376;
+    font-weight: normal;
+    border-bottom: 1px solid #eeeeee;
+    display: block;
+    line-height: 42px;
+  }
+  
+  /* line 1680, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .list li a span {
+    float: right;
+  }
+  
+  /* line 1684, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .list li a .middle {
+    float: none;
+    width: 50px;
+    text-align: right;
+    display: inline-block;
+    margin-left: 30px;
+    color: #2a2a2a;
+  }
+  
+  /* line 1696, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .list li:nth-child(4) a .middle {
+    margin-left: 48px;
+  }
+  
+  /* line 1706, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .list_2 li a {
+    text-transform: uppercase;
+    color: #2a2a2a;
+    font-weight: 500;
+  }
+  
+  /* line 1711, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .list_2 li a span {
+    color: #795376;
+    text-transform: capitalize;
+  }
+  
+  /* line 1719, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .list_2 li:last-child a span {
+    color: #2a2a2a;
+  }
+  
+  /* line 1728, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .payment_item h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    font-weight: 500;
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  /* line 1738, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .payment_item h4:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* line 1752, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .payment_item h4:after {
+    content: "";
+    height: 4px;
+    width: 4px;
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 8px;
+  }
+  
+  /* line 1764, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .payment_item h4 img {
+    padding-left: 60px;
+  }
+  
+  /* line 1769, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .payment_item p {
+    background: #fff;
+    padding: 20px;
+  }
+  
+  /* line 1776, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .payment_item.active h4:before {
+    background: #B08EAD;
+    border-color: #B08EAD;
+  }
+  
+  /* line 1784, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .creat_account {
+    margin: 15px 0;
+  }
+  
+  /* line 1787, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .creat_account label {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #2a2a2a;
+  }
+  
+  /* line 1793, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .creat_account a {
+    color: #B08EAD;
+  }
+  
+  /* line 1798, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+  .order_box .btn_3 {
+    display: block;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 1798, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+    .order_box .btn_3 {
+      padding: 9px 34px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 1798, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
+    .order_box .btn_3 {
+      padding: 9px 34px;
+    }
+  }

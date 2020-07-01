@@ -1,0 +1,177 @@
+<html lang="en">
+<!-- HEAD -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <title>15's Project</title>
+    <link href="img/logo_sm2.png" rel="icon" type="image/png" />
+
+    <!-- Source css -->
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/index.css">
+    <link rel="stylesheet" href="asset/css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+
+</head>
+
+<!-- BODY -->
+
+<body>
+    <!-- Navbar Start-->
+    <nav class="navbar  navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
+        <div class="container">
+            <a href="index_admin.html"> <img src="asset/img/logo.png" alt="Logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav pull-left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index_admin.html">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Hi! Admin
+                        </a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="list_user.html">List User</a>
+                                <a class="dropdown-item" href="list_package.html">List Package</a>
+                                <a class="dropdown-item" href="confirmation_admin.html">Payment Confirmation</a>
+                                <a class="dropdown-item" href="report.html">Report</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="index.html">Log Out</a>
+                              </div>
+                      </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End-->
+    <!--================Cart Area =================-->
+    <section class="cart_area">
+        <div class="text-center tokolapak-heading">
+            <h2><span>List User</span></h2>
+        </div>
+        <div class="container">
+            <div class="cart_inner">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Nama User</th>
+                                <th scope="col">Username</th>
+                                <th scope="col">Mobile Phone</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Adi Rachmanto</p>
+                                </td>
+                                <td>
+                                    <h5>adirach14</h5>
+                                </td>
+                                <td>
+                                    <h5>08574213243</h5>
+                                </td>
+                                <td>
+                                    <h5>adirachmato14@gmail.com</h5>
+                                </td>
+                                <td>
+                                    <a href="list_user_edit.html" class="genric-btn info circle">Edit</a>
+                                    <a href="#" class="genric-btn danger circle">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Fariz Faqihuddin</p>
+                                </td>
+                                <td>
+                                    <h5>farizfaqih_</h5>
+                                </td>
+                                <td>
+                                    <h5>0824731621</h5>
+                                </td>
+                                <td>
+                                    <h5>fariz_faqih@gmail.com</h5>
+                                </td>
+                                <td>
+                                    <a href="#" class="genric-btn info circle">Edit</a>
+                                    <a href="#" class="genric-btn danger circle">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <a href="list_user_add.html" class="genric-btn primary circle">Create Account</a>
+                    </table>                    
+                </div>
+            </div>
+    </section>
+
+    <!-- CART AREA END-->
+
+
+    <footer class="footer_part">
+        <div class="footer_iner">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-8">
+                        <div class="footer_menu">
+                            <div class="footer_logo">
+                                <a href="index.html"><img src="asset/img/logo.png" alt="#"></a>
+                            </div>
+                            <div class="footer_menu_item">
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About</a>
+                                <a href="product_list.html">Products</a>
+                                <a href="#">Pages</a>
+                                <a href="blog.html">Blog</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="social_icon">
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+</html>

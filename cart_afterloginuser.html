@@ -1,0 +1,272 @@
+<html lang="en">
+<!-- HEAD -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <title>15's Project</title>
+    <link href="img/logo_sm2.png" rel="icon" type="image/png" />
+
+    <!-- Source css -->
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/index.css">
+    <link rel="stylesheet" href="asset/css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker3.min.css" rel="stylesheet"/>
+
+</head>
+
+<!-- BODY -->
+
+<body>
+    <!-- Navbar Start-->
+    <nav class="navbar  navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
+        <div class="container">
+            <a href="index_afterloginuser.html"> <img src="asset/img/logo.png" alt="Logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav pull-left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index_afterloginuser.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portofolio_afterloginuser.html">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="package_afterloginuser.html">Our Package</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Hi! (User)
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="cart_afterloginuser.html">Cart</a>
+                          <a class="dropdown-item" href="checkout_afterloginuser.html">Package Checkout</a>
+                          <a class="dropdown-item" href="listpembelian_afterloginuser.html">List Order</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="index.html">Log Out</a>
+                        </div>
+                      </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End-->
+
+
+  <!--================Cart Area =================-->
+  <section class="cart_area section_padding">
+    <div class="container">
+      <div class="cart_inner">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+                <th scope="col">Edit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="media">
+                    <div class="d-flex">
+                      <img src="asset/img/photo-studio.jpg" alt="" />
+                    </div>
+                    <div class="media-body">
+                      <p>PAKET A</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h5>$360.00</h5>
+                </td>
+                <td>
+                  <h5>$720.00</h5>
+                </td>
+                <td>
+                    <a href="#" class="genric-btn danger circle">Remove</a>
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="media">
+                    <div class="d-flex">
+                      <img src="asset/img/package.jpg" alt="" />
+                    </div>
+                    <div class="media-body">
+                      <p>Paket B</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h5>$360.00</h5>
+                </td>
+                <td>
+                  <h5>$720.00</h5>
+                </td>
+                <td>
+                    <a href="#" class="genric-btn danger circle">Remove</a>
+                  </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <h5>Subtotal</h5>
+                </td>
+                <td>
+                  <h5>$2160.00</h5>
+                </td>
+              </tr>
+              <tr class="shipping_area">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <h5>Tanggal</h5>
+                </td>
+                <td>
+                    <div class="docs-datepicker">
+                        <div class="input-group">
+                            <input id='fieldDate' type="text" class="form-control docs-date" name="date" placeholder="Pick a date">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default docs-datepicker-trigger" disabled>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <div class="docs-datepicker-container"></div>
+                    </div> 
+                </td>
+                <td></td>
+              </tr>
+              <tr class="shipping_area">
+                <td>
+                </td>
+                <td>
+                    <div class="cupon_text float-right">
+                        <a class="btn_3" href="checkout_afterloginuser.html">Proceed To Chechout</a>
+                      </div>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </section>
+
+  <!-- CART AREA END-->
+
+
+    <footer class="footer_part">
+        <div class="footer_iner">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-8">
+                        <div class="footer_menu">
+                            <div class="footer_logo">
+                                <a href="index.html"><img src="asset/img/logo.png" alt="#"></a>
+                            </div>
+                            <div class="footer_menu_item">
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About</a>
+                                <a href="product_list.html">Products</a>
+                                <a href="#">Pages</a>
+                                <a href="blog.html">Blog</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="social_icon">
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+<script> "use strict" 
+    var $date = $('.docs-date') 
+    var $trigger = $('.docs-datepicker-trigger')  // calednar icon
+    
+    initDatePicker()
+    
+    function initDatePicker() {    
+        // Setup options
+        var options = {
+            pick: e => onDatePickerPick(e),
+            trigger: $trigger,
+            autoPick: true,
+            date: new Date(2014, 1, 14) // Or '02/14/2014'
+        }
+        $trigger.prop('disabled', false) 
+        // Create datepicker
+        var d = $date.datepicker(options)
+        console.log(d)
+    }
+    
+    $('#setDateButton').on('click', event => {
+        $date.datepicker({
+            date: '02/14/2014'
+        })
+    })
+    
+    // date pick listener
+    function onDatePickerPick(e) {
+      
+      var defaultDate = e.date.toString()
+      var shortDate = (e.date.getMonth()+1) + '/' + e.date.getDate() +  '/' + e.date.getFullYear()
+      var iso8601Date = JSON.stringify(e.date).replace(/"/g, "")
+      
+      if (e.view === "day")
+        console.log('Picked from day view')
+      else if (e.view === "month")
+        console.log('Picked from month view')
+      else if (e.view === "year")
+        console.log('Picked from year view')
+      console.log('  default: ' + defaultDate)
+      console.log('  short: ' + shortDate)
+      console.log('  ISO 8601 (for rest apis): ' + iso8601Date)
+                  
+      $("#picked1").text(defaultDate)
+      $("#picked2").text(shortDate)
+      $("#picked3").text(iso8601Date)
+    }</script>
+
+</html>

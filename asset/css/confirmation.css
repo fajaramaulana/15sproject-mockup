@@ -1,0 +1,100 @@
+.confirmation_part .confirmation_tittle {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* line 6, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .confirmation_tittle span {
+  color: #B08EAD;
+}
+
+/* line 11, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .single_confirmation_details {
+  background-color: #dddddd;
+  padding: 35px 40px;
+}
+
+@media (max-width: 991px) {
+  /* line 11, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+  .confirmation_part .single_confirmation_details {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 11, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+  .confirmation_part .single_confirmation_details {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .single_confirmation_details h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222222;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+/* line 28, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .single_confirmation_details ul li {
+  position: relative;
+  text-transform: capitalize;
+  padding-left: 55%;
+  margin-bottom: 3px;
+}
+
+/* line 34, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .single_confirmation_details ul li p {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 21px;
+  color: #777777;
+}
+
+/* line 41, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .single_confirmation_details ul li span {
+  color: #222222;
+}
+
+/* line 47, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .order_details_iner {
+  margin-top: 50px;
+  background-color: #dddd;
+  padding: 30px 30px 15px;
+  text-transform: capitalize;
+}
+
+/* line 52, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .order_details_iner h3 {
+  font-size: 18px;
+}
+
+/* line 55, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .order_details_iner .table thead th {
+  color: #222222;
+  font-size: 16px;
+}
+
+/* line 59, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .order_details_iner span {
+  color: #777777;
+}
+
+/* line 62, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .order_details_iner thead {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 66, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .order_details_iner tfoot {
+  border-top: 1px solid #dddddd;
+}
+
+/* line 69, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
+.confirmation_part .order_details_iner th {
+  font-weight: 500;
+}
